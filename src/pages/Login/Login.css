@@ -1,0 +1,135 @@
+/* .login-email {
+    position: absolute;
+    width: 108px;
+    height: 35px;
+    left: 100px;
+    top: 292px;
+
+    font-family: 'Sakkal Majalla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.login-password {
+    position: absolute;
+    width: 74px;
+    height: 35px;
+    left: 100px;
+    top: 375px;
+
+    font-family: 'Sakkal Majalla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.logo-text {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 120px;
+    top: 33px;
+
+    font-family: 'Scheherazade';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 68px;
+}
+
+.welcome-text {
+    position: absolute;
+    width: 260px;
+    height: 100px;
+    left: 50px;
+    top: 109px;
+
+    font-family: 'Sakkal Majalla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+
+}
+
+.login {
+    position: absolute;
+    width: 43px;
+    height: 30px;
+    left: 100px;
+    top: 210px;
+
+    font-family: 'Sakkal Majalla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+.register{
+    position: absolute;
+width: 63px;
+height: 30px;
+left: 170px;
+top: 210px;
+
+font-family: 'Sakkal Majalla';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 5px;
+}
+#login-main{
+    position: absolute;
+width: 200px;
+height: 45px;
+left: 50px;
+top: 520px;
+}
+.forgot-text{
+    
+position: absolute;
+width: 200px;
+height: 10px;
+left: 200px;
+top: 449px;
+
+font-family: 'Sakkal Majalla';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 29px;
+}
+.forget-pass{
+    position: absolute;
+width: 200px;
+height: 29px;
+left: 20px;
+top: 450px;
+}
+
+#or
+{
+position: absolute;
+width: 183px;
+height: 35px;
+left: 145px;
+top: 577px;
+}
+.img
+{
+    width: 39px;
+    height: 39px;
+    flex: none;
+order: 0;
+flex-grow: 0;
+
+} */
+.logo-text{
+    height: 200px;
+    width: 200px;
+
+}

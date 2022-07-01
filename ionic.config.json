@@ -1,0 +1,7 @@
+{
+  "name": "figma-with-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
