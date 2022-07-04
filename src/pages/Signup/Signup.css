@@ -1,0 +1,16 @@
+/* .logo-text{
+  align-content: center;
+} */
+.login{
+  border: 2px solid;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: 30px;
+  margin-right: 10px;
+  color: white;
+
+}
+.fb{
+  position: absolute;
+    left: 30%;
+}
