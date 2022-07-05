@@ -1,8 +1,7 @@
 import { Redirect, Route } from 'react-router-dom';
 import { IonApp, IonRouterOutlet, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import Home from './pages/Home';
-import dashboard from './pages/Dashboard/Dashboard';
+
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -24,18 +23,19 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 import Login from './pages/Login/Login';
 import Signup from './pages/Signup/Signup';
-import Dashboard from './pages/Signup/Signup';
+import { AuthContextProvider } from './context/AuthContext';
+import Dashboard from './pages/Dashboard/Dashboard';
+import Setting from './pages/Settings/Setting';
+// import Dashboard from './pages/Signup/Signup';
 
 setupIonicReact();
 
 const App: React.FC = () => (
+  <AuthContextProvider>
   
   <IonApp>
     <IonReactRouter>
       <IonRouterOutlet>
-        <Route exact path="/home">
-          <Home />
-        </Route>
         <Route exact path="/">
           <Redirect to="/Login" />
         </Route>
@@ -43,16 +43,18 @@ const App: React.FC = () => (
           <Login />
         </Route>
         <Route exact path="/Signup">
-        <Redirect to="/Signup" />
           <Signup />
         </Route>
-        {/* <Route exact path="/Dashboard">
-          <Das />
-        </Route> */}
+        <Route exact path="/Dashboard">
+          <Dashboard />
+        </Route>
+        <Route exact path="/Setting">
+          <Setting />
+        </Route>
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>
-  
+  </AuthContextProvider>
   
 );
 
